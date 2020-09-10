@@ -43,7 +43,7 @@ Defaults, the backup file will be saved in /tmp/wpbackup/
 
 Eg
 
-$ python3 wpk.py  -p /home/valleyfishfarm/public_html/ -f -t -s 
+$ python3 wpk.py  -p /home/user/public_html/ -f -t -s 
 
 
 
