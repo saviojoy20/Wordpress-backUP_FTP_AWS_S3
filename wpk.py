@@ -207,8 +207,8 @@ def main():
     # Parsing arguments, Wordpress installation directory and switches
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('-p', '--path_to_wp', dest='path', required=True, help='Path to wordpress.')
-    parser.add_argument("-l", '--local_backup', dest='local_backup', default='/tmp/wpbackup',
+    parser.add_argument('-p', dest='path', required=True, help='Path to wordpress.')
+    parser.add_argument("-l", dest='local_backup', default='/tmp/wpbackup',
                         help='Only creates local backup.')
     parser.add_argument("-f", '--ftp', dest='swih_f', action="store_true", help=" uploads to ftp server")
     parser.add_argument("-s", '--aws_s3', dest='swih_s', action="store_true", help="uploads to s3 ")
