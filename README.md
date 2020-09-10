@@ -27,7 +27,7 @@ BUCKT_NAME = bucketname
 
 FTP password and AWS API Keys should be added as environmental variables
 
-#Usage
+#USAGE
 
 python3 wpk.py [-h] -p PATH [-l LOCAL_BACKUP] [-f] [-s] [-t]
 
